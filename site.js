@@ -57,3 +57,14 @@ function dragElement(elmnt)
         document.onmousemove = null;
     }
 }
+function updateTime()
+{
+    const now = new Date();
+    const timeString = now.toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' });
+    const dateString = now.toLocaleDateString();
+    document.getElementById('current-time').textContent = timeString;
+    document.getElementById('current-date').textContent = dateString;
+}
+
+updateTime();
+setInterval(updateTime, 1000);
