@@ -1,13 +1,23 @@
+
+
+//// Make window spawn to random location on page load
 window.addEventListener('load', function ()
 {
-    var randomDiv = document.getElementById('window');
-    var maxX = window.innerWidth - randomDiv.offsetWidth;
-    var maxY = window.innerHeight - randomDiv.offsetHeight;
-    var randomX = Math.floor(Math.random() * maxX);
-    var randomY = Math.floor(Math.random() * maxY);
-    randomDiv.style.top = randomY + 'px';
-    randomDiv.style.left = randomX + 'px';
+
+    const windowDiv = document.getElementById("window");
+    windowDiv.style.top = "120px";
+    windowDiv.style.left = "120px";
+
+
+    // var randomDiv = document.getElementById('window');
+    // var maxX = window.innerWidth - randomDiv.offsetWidth;
+    // var maxY = window.innerHeight - randomDiv.offsetHeight;
+    // var randomX = Math.floor(Math.random() * maxX);
+    // var randomY = Math.floor(Math.random() * maxY);
+    // randomDiv.style.top = randomY + 'px';
+    // randomDiv.style.left = randomX + 'px';
 });
+
 // Make the DIV element draggable:
 dragElement(document.getElementById("window"));
 
@@ -57,6 +67,7 @@ function dragElement(elmnt)
         document.onmousemove = null;
     }
 }
+
 function updateTime()
 {
     const now = new Date();
