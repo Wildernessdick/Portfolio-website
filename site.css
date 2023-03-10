@@ -1,0 +1,54 @@
+#window {
+  position: absolute;
+  z-index: 9;
+  background-color: black;
+  width: 400px;
+  height: 500px;
+  border-radius: 25px;
+  color: #58bd54;
+}
+
+#windowheader {
+  padding: 10px;
+  cursor: pointer;
+  z-index: 10;
+  background-color: #f4f0ec;
+  border-top-right-radius: 25px;
+  border-top-left-radius: 25px;
+  color: #000;
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.content {
+  padding-right: 50px; /* adjust as needed */
+}
+
+.buttons {
+  display: flex;
+}
+
+.button {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  margin: 5px;
+  cursor: pointer;
+}
+
+.red {
+  background-color: #ea6565;
+}
+
+.yellow {
+  background-color: #f4bc55;
+}
+
+.green {
+  background-color: #58bd54;
+}
