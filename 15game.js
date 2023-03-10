@@ -93,7 +93,7 @@ function counter()
 {
     score++;
     console.log("Moves: " + score);
-    document.getElementById('moves').innerHTML = score + " moves";
+    document.getElementById('moves').innerHTML = score;
 }
 //Div clicks.
 $(document).on('click', '#div1', function ()
