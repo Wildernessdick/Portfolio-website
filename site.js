@@ -5,8 +5,8 @@ window.addEventListener('load', function ()
 {
 
     const windowDiv = document.getElementById("window");
-    windowDiv.style.top = "20px";
-    windowDiv.style.left = "120px";
+    windowDiv.style.top = "120px";
+    windowDiv.style.left = "800px";
 
 
     // var randomDiv = document.getElementById('window');
