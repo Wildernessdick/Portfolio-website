@@ -1,4 +1,4 @@
-// Make window spawn to random location on page load
+// Make window divs spawn to locations, and hide them
 window.addEventListener('load', function ()
 {
     hideGame();
@@ -65,7 +65,7 @@ function dragElement(elmnt)
         document.onmousemove = null;
     }
 }
-
+//DateTime on taskbar
 function updateTime()
 {
     const now = new Date();
@@ -85,7 +85,7 @@ startBtn.addEventListener('click', function ()
 {
     menu.style.display = menu.style.display === 'none' ? 'block' : 'none';
 });
-
+//Hide 15game
 function hideGame()
 {
     var x = document.getElementById("window");
@@ -97,6 +97,7 @@ function hideGame()
         x.style.display = "none";
     }
 }
+//hide app div
 function hideApp()
 {
     var x = document.getElementById("window2");

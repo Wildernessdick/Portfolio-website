@@ -69,10 +69,6 @@ body {
   align-items: center;
 }
 
-.content {
-  /* adjust as needed */
-}
-
 .buttons {
   display: flex;
 }
