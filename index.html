@@ -10,7 +10,8 @@
       src="http://code.jquery.com/jquery-latest.min.js"
     ></script>
     <link rel="stylesheet" href="site.css" />
-    <link rel="stylesheet" type="text/css" href="15game.css" />
+    <link rel="stylesheet" href="navbar.css" />
+    <link rel="stylesheet" href="15game.css" />
   </head>
   <body>
     //Desktop icons
@@ -73,7 +74,7 @@
     </div>
     //App
     <div id="window2">
-      <div id="windowheader2">
+      <div id="windowheader">
         <div class="container">
           <div class="content">404</div>
           <div class="buttons">
@@ -85,19 +86,35 @@
       </div>
     </div>
     //taskbar
+
     <div class="navbar">
-      <a href="#" class="start">
-        <img src="img/icons8-windows8-32.png" />
-      </a>
-      <a href="#" onclick="hideGame()">
-        <img src="img/icons8-game-controller-32.png" />
-      </a>
-      <a href="#" onclick="hideApp()">
-        <img src="img/icons8-calculator-32.png" />
-      </a>
-      <a href="mailto:simo.hamalainen@edu.savonia.fi">
-        <img src="img/icons8-secured-letter-32.png" />
-      </a>
+      <div class="dropdown">
+        <a href="#" class="start">
+          <div class="menu-item">
+            <img src="img/icons8-windows8-32.png" />
+          </div>
+        </a>
+        <div class="dropdown-content">
+          <a href="#" onclick="hideGame()">
+            <div class="menu-item">
+              <img src="img/icons8-game-controller-32.png" />
+              <span class="menu-title">Games</span>
+            </div>
+          </a>
+          <a href="#" onclick="hideApp()">
+            <div class="menu-item">
+              <img src="img/icons8-calculator-32.png" />
+              <span class="menu-title">Calculator</span>
+            </div>
+          </a>
+          <a href="mailto:simo.hamalainen@edu.savonia.fi">
+            <div class="menu-item">
+              <img src="img/icons8-secured-letter-32.png" />
+              <span class="menu-title">Email</span>
+            </div>
+          </a>
+        </div>
+      </div>
       <div class="time-date-section">
         <span id="current-time"></span>
         <span id="current-date"></span>
