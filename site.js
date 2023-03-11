@@ -109,3 +109,20 @@ function hideApp()
         x.style.display = "none";
     }
 }
+
+//MAILTO
+// Select the email menu item element
+const emailMenuItem = document.getElementById('email');
+
+// Add a click event listener to the email menu item
+emailMenuItem.addEventListener('click', () =>
+{
+    // Define the email address
+    const emailAddress = 'simo.hamalainen@edu.savonia.fi';
+
+    // Construct the mailto URL
+    const mailtoUrl = `mailto:${emailAddress}`;
+
+    // Open the mailto URL
+    window.location.href = mailtoUrl;
+});

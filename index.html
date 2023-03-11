@@ -95,24 +95,25 @@
           </div>
         </a>
         <div class="dropdown-content">
-          <a href="#" onclick="hideGame()">
-            <div class="menu-item">
-              <img src="img/icons8-game-controller-32.png" />
-              <span class="menu-title">Games</span>
-            </div>
-          </a>
-          <a href="#" onclick="hideApp()">
-            <div class="menu-item">
-              <img src="img/icons8-calculator-32.png" />
-              <span class="menu-title">Calculator</span>
-            </div>
-          </a>
-          <a href="mailto:simo.hamalainen@edu.savonia.fi">
-            <div class="menu-item">
-              <img src="img/icons8-secured-letter-32.png" />
-              <span class="menu-title">Email</span>
-            </div>
-          </a>
+          <div class="user">
+            <img src="img/icons8-user-50.png" class="appicon" />
+            <div class="menu-title"><p>Username</p></div>
+          </div>
+
+          <div class="menu-item" onclick="hideGame()">
+            <img class="appicon" src="img/icons8-game-controller-32.png" />
+            <p class="menu-title">15 Puzzle</p>
+          </div>
+
+          <div class="menu-item" onclick="hideApp()">
+            <img src="img/icons8-calculator-32.png" />
+            <p class="menu-title">Calculator</p>
+          </div>
+
+          <div class="menu-item" id="email">
+            <img src="img/icons8-open-envelope-32.png" />
+            <p class="menu-title">Email</p>
+          </div>
         </div>
       </div>
       <div class="time-date-section">
