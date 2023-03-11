@@ -2,6 +2,7 @@
 window.addEventListener('load', function ()
 {
     hideGame();
+    hideApp();
     const windowDiv = document.getElementById("window");
     windowDiv.style.top = "120px";
     windowDiv.style.left = "800px";
@@ -88,6 +89,17 @@ startBtn.addEventListener('click', function ()
 function hideGame()
 {
     var x = document.getElementById("window");
+    if (x.style.display === "none")
+    {
+        x.style.display = "block";
+    } else
+    {
+        x.style.display = "none";
+    }
+}
+function hideApp()
+{
+    var x = document.getElementById("window2");
     if (x.style.display === "none")
     {
         x.style.display = "block";
