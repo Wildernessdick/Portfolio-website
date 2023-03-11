@@ -1,5 +1,6 @@
 # Portfolio Website
 
+![Screenshot](screenshot.png)
 This is my personal portfolio website created using HTML, CSS, and JavaScript. The website is designed to resemble the baby of Windows 10 and macOS, with icons and applications representing different projects and interests.
 
 ## Features
@@ -25,4 +26,3 @@ The website will be updated periodically to showcase new projects and skills.
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 Feel free to use and modify the website for your own personal use. If you have any questions or feedback, please contact me through the contact form on the website.
-
