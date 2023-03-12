@@ -20,10 +20,14 @@ The website consists of multiple CSS and JavaScript files to help manage and org
 
 - `index.html`: The main HTML file for the website.
 
+### CSS
+
 - `site.css` for the website, containing the majority of the website's styles.
 - `mail.css` for the "maill form" on the website. Work on progress....
 - `navbar.css` for the navigation bar on the bottom of the website.
 - `15game.css` for the 15 puzzle game.
+
+### JS
 
 - `site.js`: A JavaScript file containing common logic used throughout the website.
 - ~~`mail.js` the logic for the contact form on the website.~~
