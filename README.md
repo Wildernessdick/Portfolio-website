@@ -4,6 +4,10 @@
 
 This is my personal portfolio website created using HTML, CSS, and JavaScript (pure if possible). The website is designed to resemble the baby of the Windows 10 and macOS, with icons and applications representing different projects and interests. You can find my socials from the desktop.
 
+# Note
+
+##This project is still in development and some features may be missing or incomplete. I'm working on it when I have time, but it's not my main focus at the moment. If you have any questions or feedback, please don't hesitate to contact me.
+
 ## Features
 
 - Interactive desktop with clickable icons and menus
