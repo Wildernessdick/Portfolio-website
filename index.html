@@ -103,16 +103,14 @@
       </div>
       <!-- form -->
 
-      <div class="email-form">
-        <div class="form-group form-group-left">
+      <div class="email">
+        <div class="emaiLeft">
           <label class="form-label" for="to">To:</label>
           <input
             class="form-input"
             type="email"
             id="to"
             name="to"
-            required
-            disabled
             value="simo.hamalainen@edu.savonia.fi"
           />
 
@@ -122,20 +120,15 @@
             type="text"
             id="subject"
             name="subject"
-            required
+            value="Opintotukihakemus on hylätty"
           />
         </div>
-        <div class="form-group form-group-right">
-          <button class="form-button form-button-right" type="submit">
-            <img
-              src="img/icons8-email-send-64.png"
-              alt="Send"
-              width="64"
-              height="64"
-            />
+        <div class="emailRight">
+          <button class="form-button form-button-right" type="submit" s>
+            <img src="img/icons8-email-send-64.png" />
           </button>
         </div>
-        <div class="form-group form-group-message">
+        <div class="emailBottom">
           <label class="form-label" for="message">Message:</label>
           <textarea
             class="form-textarea"
