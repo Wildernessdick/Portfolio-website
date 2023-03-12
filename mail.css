@@ -1,0 +1,84 @@
+.email-form {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f8f8f8;
+  border: 1px solid #ccc;
+  display: flex;
+  flex-direction: column;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-group-left {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 70%;
+  align-items: flex-start;
+}
+
+.form-group-right {
+  width: 30%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-start;
+}
+
+.form-group-message {
+  width: 100%;
+}
+
+.form-label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.form-input {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  margin-bottom: 10px;
+}
+
+.form-button {
+  display: block;
+  padding: 10px;
+  background-color: #007bff;
+  color: #fff;
+  font-size: 20px;
+  font-weight: bold;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  width: 85px;
+  height: 85px;
+}
+
+.form-button-right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: -10px;
+  margin-bottom: 20px;
+  margin-left: 20px;
+}
+
+.form-button:hover {
+  background-color: #0062cc;
+}
+
+.form-textarea {
+  resize: vertical;
+  height: 150px;
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}

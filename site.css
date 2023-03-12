@@ -32,12 +32,14 @@ body {
 }
 
 #window {
+  /* game */
   position: absolute;
   z-index: 1;
   background-color: #f1f5f5;
   border-radius: 15px;
 }
 #window2 {
+  /* app */
   position: absolute;
   z-index: 2;
   background-color: #f1f5f5;
@@ -46,12 +48,11 @@ body {
   height: 500px;
 }
 #window3 {
+  /* mail */
   position: absolute;
   z-index: 2;
   background-color: #f1f5f5;
   border-radius: 15px;
-  width: 500px;
-  height: 500px;
 }
 #windowheader {
   position: relative;

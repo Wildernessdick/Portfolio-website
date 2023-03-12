@@ -132,3 +132,24 @@ function hideMail()
 }
 
 
+//MAIL
+
+function sendEmail(event)
+{
+    event.preventDefault();
+
+    const to = "simo.hamalainen@edu.savonia.fi";
+    const cc = document.getElementById("cc").value;
+    const subject = document.getElementById("subject").value;
+    const message = document.getElementById("message").value;
+
+    const mailtoLink = `mailto:${to}`;
+    if (cc)
+    {
+        mailtoLink += `?cc=${cc}`;
+    }
+    mailtoLink += `&subject=${encodeURIComponent(subject)}`;
+    mailtoLink += `&body=${encodeURIComponent(message)}`;
+
+    window.location.href = mailtoLink;
+}

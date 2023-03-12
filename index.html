@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="site.css" />
     <link rel="stylesheet" href="navbar.css" />
     <link rel="stylesheet" href="15game.css" />
+    <link rel="stylesheet" href="mail.css" />
   </head>
   <body>
     <!-- Desktop icons -->
@@ -100,6 +101,52 @@
           </div>
         </div>
       </div>
+      <!-- form -->
+
+      <div class="email-form">
+        <div class="form-group form-group-left">
+          <label class="form-label" for="to">To:</label>
+          <input
+            class="form-input"
+            type="email"
+            id="to"
+            name="to"
+            required
+            disabled
+            value="simo.hamalainen@edu.savonia.fi"
+          />
+
+          <label class="form-label" for="subject">Subject:</label>
+          <input
+            class="form-input"
+            type="text"
+            id="subject"
+            name="subject"
+            required
+          />
+        </div>
+        <div class="form-group form-group-right">
+          <button class="form-button form-button-right" type="submit">
+            <img
+              src="img/icons8-email-send-64.png"
+              alt="Send"
+              width="64"
+              height="64"
+            />
+          </button>
+        </div>
+        <div class="form-group form-group-message">
+          <label class="form-label" for="message">Message:</label>
+          <textarea
+            class="form-textarea"
+            id="message"
+            name="message"
+            required
+          ></textarea>
+        </div>
+      </div>
+
+      <!-- end of from -->
     </div>
     <!-- taskbar -->
 
