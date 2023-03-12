@@ -3,6 +3,7 @@ window.addEventListener('load', function ()
 {
     hideGame();
     hideApp();
+    hideMail();
     const windowDiv = document.getElementById("window");
     windowDiv.style.top = "120px";
     windowDiv.style.left = "800px";
@@ -11,12 +12,16 @@ window.addEventListener('load', function ()
     windowDiv2.style.top = "250px";
     windowDiv2.style.left = "600px";
 
+    const windowDiv3 = document.getElementById("window3");
+    windowDiv3.style.top = "400px";
+    windowDiv3.style.left = "400px";
+
 });
 
 // Make the DIV element draggable:
 dragElement(document.getElementById("window"));
 dragElement(document.getElementById("window2"));
-
+dragElement(document.getElementById("window3"));
 function dragElement(elmnt)
 {
     var pos1 = 0, pos2 = 0, pos3 = 0, pos4 = 0;
@@ -85,6 +90,10 @@ startBtn.addEventListener('click', function ()
 {
     menu.style.display = menu.style.display === 'none' ? 'block' : 'none';
 });
+
+
+
+
 //Hide 15game
 function hideGame()
 {
@@ -109,20 +118,17 @@ function hideApp()
         x.style.display = "none";
     }
 }
-
-//MAILTO
-// Select the email menu item element
-const emailMenuItem = document.getElementById('email');
-
-// Add a click event listener to the email menu item
-emailMenuItem.addEventListener('click', () =>
+//hide mail div
+function hideMail()
 {
-    // Define the email address
-    const emailAddress = 'simo.hamalainen@edu.savonia.fi';
+    var x = document.getElementById("window3");
+    if (x.style.display === "none")
+    {
+        x.style.display = "block";
+    } else
+    {
+        x.style.display = "none";
+    }
+}
 
-    // Construct the mailto URL
-    const mailtoUrl = `mailto:${emailAddress}`;
 
-    // Open the mailto URL
-    window.location.href = mailtoUrl;
-});
