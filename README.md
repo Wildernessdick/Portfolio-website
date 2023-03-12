@@ -6,7 +6,9 @@ This is my personal portfolio website created using HTML, CSS, and JavaScript (p
 
 # Note
 
-##This project is still in development and some features may be missing or incomplete. I'm working on it when I have time, but it's not my main focus at the moment. If you have any questions or feedback, please don't hesitate to contact me.
+- This project is still in development and some features may be missing or incomplete.
+  I'm working on it when I have time, but it's not my main focus at the moment :face_with_spiral_eyes:.
+  If you have any questions or feedback, please don't hesitate to contact me.
 
 ## Features
 
@@ -20,7 +22,8 @@ The 15 puzzle game featured on my website is a school project from the first web
 
 ## Code
 
-The website consists of multiple CSS and JavaScript files to help manage and organize the codebase. Here's an overview of the files:
+The website consists of multiple CSS and JavaScript files to help manage and organize the codebase.
+Here's an overview of the files:
 
 - `index.html`: The main HTML file for the website.
 
@@ -40,7 +43,7 @@ The website consists of multiple CSS and JavaScript files to help manage and org
 
 ## Installation
 
-To view the website, simply open the `index.html` file in a web browser. The website can also be hosted on a web server.
+To view the website, simply open the `index.html` file in a web browser.
 
 ## Credits
 
