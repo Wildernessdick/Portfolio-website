@@ -71,7 +71,7 @@ function endgame()
         && document.getElementById('div15').innerHTML == "15"
         && document.getElementById('div16').innerHTML == "")
     {
-        //alert("it took " + score + " moves to solve the puzzle, click ok to play again");
+        alert("it took " + score + " moves to solve the puzzle, click ok to play again");
         location.reload();
     }
 }

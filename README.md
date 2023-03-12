@@ -1,13 +1,14 @@
 # Portfolio Website
 
 ![Screenshot](screenshot.png)
-This is my personal portfolio website created using HTML, CSS, and JavaScript. The website is designed to resemble the baby of Windows 10 and macOS, with icons and applications representing different projects and interests.
+This is my personal portfolio website created using HTML, CSS, and JavaScript (pure if possible). The website is designed to resemble the baby of the Windows 10 and macOS, with icons and applications representing different projects and interests.
+You can find my socials from the desktop.
 
 ## Features
 
 - Interactive desktop with clickable icons and menus
 - Applications for different projects and interests.
-- Responsive design for different screen sizes (soon). now best result is with 1,920 x 1,080 pixels
+- Responsive design for different screen sizes (soon :D). now best result is with 1,920 x 1,080 pixels
 
 ## Installation
 
