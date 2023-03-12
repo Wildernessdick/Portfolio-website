@@ -18,7 +18,7 @@ This is my personal portfolio website created using HTML, CSS, and JavaScript (p
 
 ## 15 Puzzle Game
 
-The 15 puzzle game featured on my website is a school project from the first web development class I took at the University of Applied Sciences. It was created using JavaScript and CSS, and I have continued to refine and improve it since then. The game involves sliding tiles around on a board to arrange them in numerical order, and it can be quite challenging!
+The 15 puzzle game featured on my website is a school project from the first web development class I took at the University of Applied Sciences. It was created using JavaScript and CSS. The game involves sliding tiles around on a board to arrange them in numerical order, and it can be quite challenging!
 
 own repo: [15 puzzle](https://github.com/Wildernessdick/WEB1-15puzzle)
 
