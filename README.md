@@ -58,4 +58,4 @@ The website will be updated periodically to showcase new projects and skills.
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details. Feel free to use and modify the website for your own personal use. If you have any questions or feedback, please contact me through the contact me on LinkedIn.
+This project is licensed under the MIT License. Feel free to use and modify the website for your own personal use. If you have any questions or feedback, please contact me through the contact me on LinkedIn.
