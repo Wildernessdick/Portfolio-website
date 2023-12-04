@@ -6,8 +6,11 @@ This is my personal portfolio website created using HTML, CSS, and JavaScript (p
 
 # Note
 
-- This project is still in development and some features may be missing or incomplete.
-  I'm working on it when I have time, but it's not my main focus at the moment :face_with_spiral_eyes:.
+~~- This project is still in development and some features may be missing or incomplete.
+  I'm working on it when I have time, but it's not my main focus at the moment :face_with_spiral_eyes:.~~~
+
+- update, December 2023, discontinued.
+
   If you have any questions or feedback, please don't hesitate to contact me.
 
 ## Features
